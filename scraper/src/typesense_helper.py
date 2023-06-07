@@ -23,7 +23,7 @@ class TypesenseHelper:
         })
         self.alias_name = alias_name
         self.collection_name_tmp = collection_name_tmp
-        self.collection_locale = os.environ.get('TYPESENSE_COLLECTION_LOCALE', 'en')
+        self.collection_locale = os.environ.get('TYPESENSE_COLLECTION_LOCALE', 'ko')
         self.custom_settings = custom_settings
 
     def create_tmp_collection(self):
